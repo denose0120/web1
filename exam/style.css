@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.lf-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lf-item {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+.nav-bar {
+  font-size: 1.5rem;
+}
+.nav-bar ul {
+  padding: 0;
+  position: fixed;
+  align-items: center;
+  margin: 0px;
+  background: white;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-bar li {
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+.header {
+  background-image: url(C:/Users/denos/Desktop/Project/images/SeoulScene.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.header-tipo {
+  margin-left: 15%;
+  color: white;
+  font-size: 1.5rem;
+}
+.header-tipo > h1 {
+  margin: 0px;
+  margin-top: 40vh;
+}
+.header-tipo > p {
+  margin-bottom: 70px;
+}
+.header-bt {
+  padding-bottom: 150px;
+}
+.header-bt > a {
+  border: solid 2px white;
+  padding: 10px;
+}
+.header-bt > a:hover {
+  transition: all 0.5s;
+  background-color: #d14e4e;
+  border-color: #d14e4e;
+}
+
+.main-about-logo {
+  font-size: 3rem;
+}
+
+.main-about-content {
+  font-size: 1.5rem;
+  padding: 10%;
+  background-color: #242446;
+  color: white;
+}
+
+.main-service {
+  text-align: center;
+  color: #242446;
+  margin: 50px;
+  font-size: 1.7rem;
+}
+
+.main-service img {
+  width: 50%;
+  max-width: 300px;
+}
+.main-service-bt {
+  padding-bottom: 100px;
+  margin-top: 5vh;
+}
+
+.main-service-bt > a {
+  color: white;
+  border: solid 2px #d14e4e;
+  background-color: #d14e4e;
+  padding: 10px;
+}
+
+.main-service-bt > a:hover {
+  transition: all 0.5s;
+  background-color: #242446;
+  border-color: #242446;
+}
+
+.main-board {
+  background-color: #242446;
+  background-attachment: fixed;
+  font-size: 1.7rem;
+}
+
+.main-board-dp {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 5vh;
+  border-radius: 15px;
+}
+.main-board-dp:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+.main-board-dp p:hover {
+  color: #d14e4e;
+}
+.main-board-img,
+.main-board-day,
+.main-board-p,
+.main-board-see {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+.main-board-pd {
+  padding: 30px;
+}
+.main-board-img {
+  text-align: center;
+}
+.main-board-img img {
+  width: 60%;
+}
+.main-board-day {
+  margin-top: 20px;
+}
+.main-board-see {
+  border-top: 1px solid gray;
+}
+.main-board-bt {
+  padding-bottom: 100px;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.main-board-bt > a {
+  background-color: #d14e4e;
+  border-color: #d14e4e;
+  color: white;
+  padding: 10px;
+}
+
+.main-board-bt > a:hover {
+  transition: all 0.5s;
+  color: #242446;
+  border: solid 2px white;
+  background-color: white;
+}
+.main-app {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+.main-app-title {
+  text-align: center;
+  color: #242446;
+}
+.main-app img {
+  width: 100%;
+}
+.main-app-img {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.main-app-img > div {
+  margin: 10px;
+}
+.main-app-content {
+  justify-content: space-around;
+}
+.main-app-dwld {
+  text-align: center;
+  margin-top: 50px;
+}
+.main-app-dwld img {
+  width: 20%;
+}
+footer {
+  text-align: center;
+  border-top: solid 1px gray;
+}
+footer a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.aside-1,
+.aside-2 {
+  background-color: black;
+  color: white;
+}

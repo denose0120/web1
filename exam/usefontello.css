@@ -1,0 +1,25 @@
+.youtube-ft1:before {
+  content: "\f167";
+  font-family: fontello;
+}
+.youtube-ft2::before {
+  content: "\f16a";
+  font-family: fontello;
+}
+.login-ft:before {
+  content: "\e800";
+  font-family: fontello;
+}
+.insta-ft:before {
+  content: "\f16d";
+  font-family: fontello;
+}
+
+.facebook-ft:before {
+  content: "\f308";
+  font-family: fontello;
+}
+.menu-ft::before {
+  content: "\f0c9";
+  font-family: fontello;
+}
